@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Doppiaggio - Servizi Professionali</title>
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+        body {line-height: 1.6; color: #333;}
+        header {background: #000; color: #fff; padding: 20px 0; text-align: center;}
+        nav ul {display: flex; justify-content: center; list-style: none;}
+        nav ul li {margin: 0 15px;}
+        nav ul li a {color: #fff; text-decoration: none; font-weight: bold;}
+        section {padding: 60px 20px; text-align: center;}
+        #home {background: url('https://images.unsplash.com/photo-1590602847861-3d5a88a4f8d5?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover; color: #fff;}
+        #home h1 {font-size: 3rem; margin-bottom: 20px;}
+        #home p {font-size: 1.2rem; max-width: 600px; margin: auto;}
+        #servizi, #chi-siamo, #contatti {max-width: 800px; margin: auto;}
+        .btn {display: inline-block; margin-top: 20px; padding: 10px 20px; background: #ff6600; color: #fff; text-decoration: none; border-radius: 5px;}
+        .servizio {margin: 20px 0; padding: 20px; background: #f9f9f9; border-radius: 10px;}
+        footer {background: #000; color: #fff; text-align: center; padding: 20px;}
+        form {display: flex; flex-direction: column;}
+        input, textarea {margin: 10px 0; padding: 10px; border-radius: 5px; border: 1px solid #ccc;}
+        button {padding: 10px; background: #ff6600; color: #fff; border: none; border-radius: 5px; cursor: pointer;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Studio Doppiaggio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>La tua voce, il nostro mestiere</h1>
+        <p>Servizi professionali di doppiaggio, voice-over e adattamento dialoghi per cinema, TV, pubblicità e videogiochi.</p>
+        <a href="#contatti" class="btn">Richiedi un Preventivo</a>
+    </section>
+
+    <section id="servizi">
+        <h2>I nostri Servizi</h2>
+        <div class="servizio">
+            <h3>Doppiaggio Professionale</h3>
+            <p>Registrazioni in alta qualità con doppiatori professionisti.</p>
+        </div>
+        <div class="servizio">
+            <h3>Voice Over</h3>
+            <p>Perfetto per documentari, spot e contenuti digitali.</p>
+        </div>
+        <div class="servizio">
+            <h3>Adattamento Dialoghi</h3>
+            <p>Traduzione e adattamento di copioni per ogni lingua e mercato.</p>
+        </div>
+    </section>
+
+    <section id="chi-siamo">
+        <h2>Chi Siamo</h2>
+        <p>Siamo uno studio con oltre 10 anni di esperienza nel doppiaggio e nella produzione audio. La nostra missione è dare voce alle tue idee con professionalità e creatività.</p>
+    </section>
+
+    <section id="contatti">
+        <h2>Contattaci</h2>
+        <form>
+            <input type="text" name="nome" placeholder="Il tuo nome" required>
+            <input type="email" name="email" placeholder="La tua email" required>
+            <textarea name="messaggio" rows="5" placeholder="Scrivi il tuo messaggio"></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Studio Doppiaggio. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
