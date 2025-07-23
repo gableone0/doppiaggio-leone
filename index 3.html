@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriele Leone - Studio Audio Creativo</title>
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Trebuchet MS', sans-serif;}
+        body {line-height: 1.6; color: #222; background: #f0f4f8;}
+        header {background: linear-gradient(90deg, #ff6600, #ff3366); color: #fff; padding: 20px 0; text-align: center;}
+        nav ul {display: flex; justify-content: center; list-style: none; margin-top: 10px;}
+        nav ul li {margin: 0 15px;}
+        nav ul li a {color: #fff; text-decoration: none; font-weight: bold;}
+        section {padding: 60px 20px; text-align: center;}
+        #home {background: url('https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover; color: #fff;}
+        #home h1 {font-size: 3rem; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);}
+        #home p {font-size: 1.2rem; max-width: 600px; margin: auto; text-shadow: 1px 1px 3px rgba(0,0,0,0.7);}
+        #servizi, #chi-siamo, #contatti {max-width: 800px; margin: auto;}
+        .btn {display: inline-block; margin-top: 20px; padding: 12px 25px; background: #ff3366; color: #fff; text-decoration: none; border-radius: 30px; transition: background 0.3s;}
+        .btn:hover {background: #ff6600;}
+        .servizio {margin: 20px 0; padding: 20px; background: #ffffff; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+        footer {background: #222; color: #fff; text-align: center; padding: 20px;}
+        form {display: flex; flex-direction: column;}
+        input, textarea {margin: 10px 0; padding: 12px; border-radius: 8px; border: 1px solid #ccc;}
+        button {padding: 12px; background: #ff3366; color: #fff; border: none; border-radius: 30px; cursor: pointer; transition: background 0.3s;}
+        button:hover {background: #ff6600;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gabriele Leone - Studio Audio Creativo</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Diamo Voce alle Tue Storie</h1>
+        <p>Produzione di audiolibri, voice-over e adattamento dialoghi per ogni progetto creativo.</p>
+        <a href="#contatti" class="btn">Richiedi un Preventivo</a>
+    </section>
+
+    <section id="servizi">
+        <h2>I nostri Servizi</h2>
+        <div class="servizio">
+            <h3>Audiolibri</h3>
+            <p>Trasformiamo le tue storie in esperienze sonore coinvolgenti e professionali.</p>
+        </div>
+        <div class="servizio">
+            <h3>Voice Over</h3>
+            <p>Perfetto per documentari, spot pubblicitari e corsi online.</p>
+        </div>
+        <div class="servizio">
+            <h3>Adattamento Dialoghi</h3>
+            <p>Traduzione e adattamento di testi per una resa perfetta in ogni lingua.</p>
+        </div>
+    </section>
+
+    <section id="chi-siamo">
+        <h2>Chi Siamo</h2>
+        <p>Lo studio di Gabriele Leone nasce dalla passione per il suono e la narrazione. Offriamo soluzioni audio creative per editori, autori e aziende.</p>
+    </section>
+
+    <section id="contatti">
+        <h2>Contattaci</h2>
+        <form action="mailto:gabrieleleone048@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="nome" placeholder="Il tuo nome" required>
+            <input type="email" name="email" placeholder="La tua email" required>
+            <textarea name="messaggio" rows="5" placeholder="Scrivi il tuo messaggio"></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gabriele Leone. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
